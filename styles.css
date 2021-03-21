@@ -40,6 +40,15 @@ h3{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 700px) {
+  p{
+    font-size: 12.8px;
+  }
+  h3{
+    font-size: 14.9px;
+  }
+  h1{
+    font-size: 25.6px;
+  }
   .grid-container {
     display: grid;
     grid-template-columns: auto;
@@ -126,7 +135,7 @@ h3{
   .headItem1 p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 75px;
+    font-size: 60px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     display: inline-block;
@@ -136,7 +145,7 @@ h3{
   .headItem2 p{
     font-family: 'Montserrat';
     font-weight: 800;
-    font-size: 25px;
+    font-size: 20px;
     margin: 30px 0px 0px 0px;
     display: inline-block;
   }
@@ -146,7 +155,6 @@ h3{
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 3;
-    font-size: 20px;
   }
 
   .item3{ /*ABOUT*/
@@ -186,7 +194,7 @@ h3{
 
   .aboutTitle{
     display: block;
-    font-size: 1.5em;
+    font-size: 20px;
     margin-top: 0.83em;
     margin-bottom: 0.83em;
     margin-left: 0;
@@ -255,7 +263,7 @@ h3{
   }
 
   .picBox img {
-    max-width: 14em;
+    max-width: 10em;
     height: auto;
   }
   .item5{ /*SERVICES*/
