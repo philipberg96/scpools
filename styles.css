@@ -376,27 +376,27 @@ h3{
 
   .conBox{
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
-    grid-template-rows: auto auto 40px auto 40px;
+    grid-template-columns: 1fr 1fr 30px 1fr 1fr;
+    grid-template-rows: auto auto 40px auto auto 40px;
 
     text-align:center;
   }
 
   .conItem1{
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 1;
   }
   .conItem2{
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: 2;
   }
   .conItem3{
-    grid-column-start: 1;
-    grid-column-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 4;
   }
@@ -405,17 +405,17 @@ h3{
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 4;
-    margin-left: 5px;
+    margin-top: 60px;
   }
   .conItem5{
-    grid-column-start: 3;
-    grid-column-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 4;
   }
   .conItem5 p{
     text-align: left;
-    padding-left: 15px;
+    padding-left: 30px;
     line-height: 2;
   }
 
