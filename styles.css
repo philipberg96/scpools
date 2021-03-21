@@ -376,7 +376,7 @@ h3{
 
   .conBox{
     display: grid;
-    grid-template-columns: 1fr 1fr 30px 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr 30px 1fr 1fr;
     grid-template-rows: auto auto 40px auto auto 40px;
 
     text-align:center;
