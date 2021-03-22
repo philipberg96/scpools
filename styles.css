@@ -1409,6 +1409,7 @@ h3{
     max-width: 22em;
     height: auto;
     margin-top: 1.5em;
+    float: left;
   }
 
   .aboutTitle{
@@ -1447,9 +1448,8 @@ h3{
 
   .picBox{
     display: grid;
-    grid-template-columns: 10% auto auto auto auto 10%;
+    grid-template-columns: 10% auto 25px auto 25px auto 25px auto 10%;
     grid-template-rows: 15px auto 40px;
-    column-gap: 50px;
 
     justify-content: center;
   }
@@ -1462,22 +1462,22 @@ h3{
   }
 
   .picItem2{
-    grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 2;
-  }
-
-  .picItem3{
     grid-column-start: 4;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 2;
   }
 
+  .picItem3{
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
   .picItem4{
-    grid-column-start: 5;
-    grid-column-end: 5;
+    grid-column-start: 8;
+    grid-column-end: 8;
     grid-row-start: 2;
     grid-row-end: 2;
   }
@@ -1595,7 +1595,7 @@ h3{
 
   .conBox{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
     grid-template-rows: 40px auto auto 40px auto 40px;
 
     text-align:center;
@@ -1640,7 +1640,7 @@ h3{
   .map {
     height: 500px;
     /* The height is 400 pixels */
-    width: 66%;
+    width: 80%;
     /* The width is the width of the web page */
   }
 
