@@ -139,7 +139,7 @@ h3{
   .headItem1 p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 50px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     display: inline-block;
@@ -856,7 +856,7 @@ h3{
   .conItem5 p{
     text-align: left;
     padding-left: 15px;
-    line-height: 2;
+    line-height: 1.2;
   }
 
   .map {
@@ -1285,10 +1285,8 @@ h3{
   }
 
   .map {
-    height: 350px;
-    /* The height is 400 pixels */
+    height: 400px;
     width: 100%;
-    /* The width is the width of the web page */
   }
   /*</editor-fold> */
 
