@@ -189,6 +189,8 @@ a:active {
 
 /* Extra small devices (phones, 700px and down) */
 @media only screen and (max-width: 650px) {
+
+  /*<editor-fold -----BANNER-----*/
   .bannerCon {
     display: grid;
     grid-template-columns: 1fr 9%;
@@ -208,6 +210,8 @@ a:active {
     grid-template-columns: auto;
     grid-template-rows: 55px 375px auto auto auto auto 50px;
   }
+  /*</editor-fold> */
+
   /*<editor-fold -----NAV BAR-----*/
   .item1{ /*NAV BAR*/
     grid-column: auto;
@@ -486,7 +490,7 @@ a:active {
   }
 
   .servBox h3{
-    margin-top: 30px;
+    margin-top: 35px;
   }
 
   .servBox a:link {
@@ -577,7 +581,7 @@ a:active {
 
   .conBox{
     display: grid;
-    grid-template-columns: 1fr 1.2fr 30px 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto 40px auto auto 40px;
 
     text-align:center;
@@ -595,22 +599,22 @@ a:active {
     grid-row-start: 2;
     grid-row-end: 2;
   }
-  .conItem3{
-    grid-column-start: 2;
-    grid-column-end: 2;
+  .conItem3{ /*Phone*/
+    grid-column-start: 1;
+    grid-column-end: 1;
     grid-row-start: 4;
     grid-row-end: 4;
   }
-  .conItem4{
-    grid-column-start: 2;
-    grid-column-end: 2;
+  .conItem4{ /*Email*/
+    grid-column-start: 1;
+    grid-column-end: 1;
     grid-row-start: 4;
     grid-row-end: 4;
     margin-top: 60px;
   }
-  .conItem5{
-    grid-column-start: 4;
-    grid-column-end: 4;
+  .conItem5{ /*Hours*/
+    grid-column-start: 2;
+    grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 4;
   }
@@ -859,10 +863,6 @@ a:active {
     color: white;
   }
 
-  .servBox h3{
-    margin-top: 30px;
-  }
-
   .servBox a:link {
     text-decoration: underline;
     color: white;
@@ -881,6 +881,9 @@ a:active {
     color: #16c0f7;
   }
 
+  .servBox h3{
+    margin-top: 30px;
+  }
 
   .servItem1{
     grid-column-start: 2;
@@ -980,8 +983,6 @@ a:active {
     grid-column-end: 2;
     grid-row-start: 5;
     grid-row-end: 5;
-    margin-left: 50px;
-    margin-right: 50px;
   }
   .conItem5{ /*store hours*/
     grid-column-start: 3;
