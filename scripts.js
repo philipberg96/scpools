@@ -1,3 +1,3 @@
-function myFunction() {
+function closeBanner() {
   document.getElementById("banner").style.display = 'none';
 }
