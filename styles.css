@@ -20,21 +20,21 @@ h3{
   margin-top: 0px;
 }
 
-.conBox a:link {
+a:link {
   text-decoration: underline;
   color: black;
 }
 
-.conBox a:visited {
+a:visited {
   text-decoration: underline;
   color: black;
 }
 
-.conBox a:hover {
+a:hover {
   color: #16c0f7;
 }
 
-.conBox a:active {
+a:active {
   color: #16c0f7;
 }
 
@@ -99,8 +99,93 @@ h3{
 
 .bannerItem2:hover {background: #0e617c;}
 
+/*<editor-fold -----NAV BAR-----*/
+.item1{ /*NAV BAR*/
+  grid-column: auto;
+  grid-row-start: 1;
+  grid-row-end: 1;
 
+  background-color: white;
+  width: 100vw;
+  position: fixed;
+}
 
+.navBox{
+  display: grid;
+  grid-template-columns: 30px 90px 200px 1fr 50px 140px;
+  grid-template-rows: 6px 1fr 6px;
+}
+
+.navItem1{ /*COMPANY NAME*/
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+
+  align-self: center;
+}
+
+.navItem1 p{
+  margin: 2px 0px 0px 5px;
+  padding: 0px 0px 0px 0px;
+
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.navItem3{
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.navBox > img {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+
+  max-width: 81px;
+  height: auto;
+}
+
+.navItem4{
+  grid-column-start: 6;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 2;
+
+  align-self: center;
+  text-align: right;
+}
+
+.navItem4 p{
+  margin: 2px 0px 0px 5px;
+  padding-right: 50px;
+
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.navItem5{
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 2;
+
+  align-self: center;
+}
+
+.navItem5 img{
+  width:auto;
+  height: 1.1em;
+  float: right;
+  padding-top: 5px;
+}
+/*</editor-fold> */
 
 /* Extra small devices (phones, 700px and down) */
 @media only screen and (max-width: 650px) {
@@ -123,8 +208,6 @@ h3{
     grid-template-columns: auto;
     grid-template-rows: 55px 375px auto auto auto auto 50px;
   }
-
-
   /*<editor-fold -----NAV BAR-----*/
   .item1{ /*NAV BAR*/
     grid-column: auto;
@@ -138,8 +221,8 @@ h3{
 
   .navBox{
     display: grid;
-    grid-template-columns: 30px 90px 200px auto;
-    grid-template-rows: 6px auto 6px;
+    grid-template-columns: 30px 90px 200px 1fr 50px 100px;
+    grid-template-rows: 6px 1fr 6px;
   }
 
   .navItem1{ /*COMPANY NAME*/
@@ -157,7 +240,7 @@ h3{
 
     font-family: 'Montserrat';
     font-weight: 200;
-    font-size: 18px;
+    font-size: 14.4px;
   }
 
   .navItem3{
@@ -167,7 +250,7 @@ h3{
     grid-row-end: 2;
   }
 
-  .navBox img {
+  .navBox > img {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -175,6 +258,41 @@ h3{
 
     max-width: 81px;
     height: auto;
+  }
+
+  .navItem4{
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+    align-self: center;
+    text-align: right;
+  }
+
+  .navItem4 p{
+    margin: 2px 0px 0px 5px;
+    padding-right: 30px;
+
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 14.4px;
+  }
+
+  .navItem5{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+    align-self: center;
+  }
+
+  .navItem5 img{
+    width:auto;
+    height: 1.1em;
+    float: right;
+    padding-top: 5px;
   }
   /*</editor-fold> */
 
@@ -547,58 +665,7 @@ h3{
     grid-template-columns: 10% auto 10%;
     grid-template-rows: 55px 375px auto auto auto auto 50px;
   }
-  /*<editor-fold -----NAV BAR-----*/
-  .item1{ /*NAV BAR*/
-    grid-column: auto;
-    grid-row-start: 1;
-    grid-row-end: 1;
 
-    background-color: white;
-    width: 100vw;
-    position: fixed;
-  }
-
-  .navBox{
-    display: grid;
-    grid-template-columns: 30px 90px 200px auto;
-    grid-template-rows: 6px auto 6px;
-  }
-
-  .navItem1{ /*COMPANY NAME*/
-    grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 2;
-
-    align-self: center;
-  }
-
-  .navItem1 p{
-    margin: 2px 0px 0px 5px;
-    padding: 0px 0px 0px 0px;
-
-    font-family: 'Montserrat';
-    font-weight: 200;
-    font-size: 18px;
-  }
-
-  .navItem3{
-    grid-column-start: 4;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 2;
-  }
-
-  .navBox img {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 2;
-
-    max-width: 81px;
-    height: auto;
-  }
-  /*</editor-fold> */
 
   /*<editor-fold -----HEADER-----*/
   .item2{ /*HEADER*/
@@ -971,59 +1038,6 @@ h3{
     grid-template-rows: 55px 375px auto auto auto auto 50px;
   }
 
-  /*<editor-fold -----NAV BAR----- */
-  .item1{ /*NAV BAR*/
-    grid-column: auto;
-    grid-row-start: 1;
-    grid-row-end: 1;
-
-    background-color: white;
-    width: 100vw;
-    position: fixed;
-  }
-
-  .navBox{
-    display: grid;
-    grid-template-columns: 30px 90px 200px auto;
-    grid-template-rows: 6px auto 6px;
-  }
-
-  .navItem1{ /*COMPANY NAME*/
-    grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 2;
-
-    align-self: center;
-  }
-
-  .navItem1 p{
-    margin: 2px 0px 0px 5px;
-    padding: 0px 0px 0px 0px;
-
-    font-family: 'Montserrat';
-    font-weight: 200;
-    font-size: 18px;
-  }
-
-  .navItem3{
-    grid-column-start: 4;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 2;
-  }
-
-  .navBox img {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 2;
-
-    max-width: 81px;
-    height: auto;
-  }
-  /*</editor-fold> */
-
   /*<editor-fold -----HEADER----- */
   .item2{ /*HEADER*/
     grid-column-start: 1;
@@ -1395,59 +1409,6 @@ h3{
     grid-template-columns: 14% auto 14%;
     grid-template-rows: 55px 375px auto auto auto auto 50px;
   }
-
-  /*<editor-fold -----NAV BAR-----*/
-  .item1{ /*NAV BAR*/
-    grid-column: auto;
-    grid-row-start: 1;
-    grid-row-end: 1;
-
-    background-color: white;
-    width: 100vw;
-    position: fixed;
-  }
-
-  .navBox{
-    display: grid;
-    grid-template-columns: 30px 90px 200px auto;
-    grid-template-rows: 6px auto 6px;
-  }
-
-  .navItem1{ /*COMPANY NAME*/
-    grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 2;
-
-    align-self: center;
-  }
-
-  .navItem1 p{
-    margin: 2px 0px 0px 5px;
-    padding: 0px 0px 0px 0px;
-
-    font-family: 'Montserrat';
-    font-weight: 200;
-    font-size: 18px;
-  }
-
-  .navItem3{
-    grid-column-start: 4;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 2;
-  }
-
-  .navBox img {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 2;
-
-    max-width: 81px;
-    height: auto;
-  }
-  /*</editor-fold> */
 
   /*<editor-fold -----HEADER-----*/
   .item2{ /*HEADER*/
