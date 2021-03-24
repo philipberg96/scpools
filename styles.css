@@ -48,7 +48,7 @@ a:active {
   top: 0;
 
   background-color: #16c1f7;
-  border: 1px solid #ddd;
+  border-bottom: 2px solid #ddd;
 
   font-family: 'Montserrat';
   font-weight: 500;
@@ -109,7 +109,7 @@ a:active {
   width: 100vw;
   position: fixed;
 
-  border: 1px solid #ddd;
+  border-bottom : 1px solid #ddd;
 }
 
 .navBox{
