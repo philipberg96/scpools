@@ -665,13 +665,27 @@ a:active {
 }
 
 /* Medium-Small devices (tablets, 700px and up) */
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 650px){
   .grid-container {
     display: grid;
     grid-template-columns: 10% auto 10%;
     grid-template-rows: 55px 375px auto auto auto auto 50px;
   }
 
+/*Brought these two down to adjust logo/call margins*/
+  .navBox{
+    display: grid;
+    grid-template-columns: 10px 90px 200px 1fr 50px 140px;
+    grid-template-rows: 6px 1fr 6px;
+  }
+  .navItem4 p{
+    margin: 2px 0px 0px 5px;
+    padding-right: 10px;
+
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 18px;
+  }
 
   /*<editor-fold -----HEADER-----*/
   .item2{ /*HEADER*/
@@ -1040,6 +1054,21 @@ a:active {
     grid-template-columns: 10% auto 10% ;
     grid-template-rows: 55px 375px auto auto auto auto 50px;
   }
+
+  /*Brought these two down to return logo/call margins*/
+    .navBox{
+      display: grid;
+      grid-template-columns: 30px 90px 200px 1fr 50px 140px;
+      grid-template-rows: 6px 1fr 6px;
+    }
+    .navItem4 p{
+      margin: 2px 0px 0px 5px;
+      padding-right: 50px;
+
+      font-family: 'Montserrat';
+      font-weight: 200;
+      font-size: 18px;
+    }
 
   /*<editor-fold -----HEADER----- */
   .item2{ /*HEADER*/
