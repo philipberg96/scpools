@@ -31,15 +31,112 @@ h3{
 }
 
 .conBox a:hover {
-  color: #ADD8E6;
+  color: #16c0f7;
 }
 
 .conBox a:active {
-  color: #ADD8E6;
+  color: #16c0f7;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #16c1f7;
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  position: relative;
+}
+
+ul li{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.bannerCon {
+  display: grid;
+  grid-template-columns: 1fr .05fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.bannerItem1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+/*
+.bannerItem3{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  padding-right: 600px;
+}
+*/
+
+.bannerItem1 img{
+  width:auto;
+  height: 1em;
+  padding-right: 10px;
+}
+
+.bannerItem2{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 5;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.spanItem{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+#banner:hover {background-color: #13a8d7;}
+
+#close {
+  cursor: pointer;
+  height: 100%;
+}
+
+#close:hover {background: #0e617c;}
+
+#banner{
+  position: sticky;
+  top: 0;
+
+  background-color: #16c1f7;
+  border: 1px solid #ddd;
+
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
 
 /* Extra small devices (phones, 700px and down) */
 @media only screen and (max-width: 650px) {
+  .bannerCon {
+    display: grid;
+    grid-template-columns: 1fr 9%;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
   p{
     font-size: 12.8px;
   }
@@ -313,11 +410,11 @@ h3{
   }
 
   .servBox a:hover {
-    color: #ADD8E6;
+    color: #16c0f7;
   }
 
   .servBox a:active {
-    color: #ADD8E6;
+    color: #16c0f7;
   }
 
 
@@ -738,11 +835,11 @@ h3{
   }
 
   .servBox a:hover {
-    color: #ADD8E6;
+    color: #16c0f7;
   }
 
   .servBox a:active {
-    color: #ADD8E6;
+    color: #16c0f7;
   }
 
 
@@ -1165,11 +1262,11 @@ h3{
   }
 
   .servBox a:hover {
-    color: #ADD8E6;
+    color: #16c0f7;
   }
 
   .servBox a:active {
-    color: #ADD8E6;
+    color: #16c0f7;
   }
 
   .servItem1{
@@ -1595,11 +1692,11 @@ h3{
   }
 
   .servBox a:hover {
-    color: #ADD8E6;
+    color: #16c0f7;
   }
 
   .servBox a:active {
-    color: #ADD8E6;
+    color: #16c0f7;
   }
 
 
