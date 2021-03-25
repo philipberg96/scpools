@@ -43,7 +43,7 @@ a:active {
 .bannerCon {
   display: grid;
   grid-template-columns: 1fr .05fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: .3fr 1fr .2fr;
 
 
   position: sticky;
@@ -57,6 +57,7 @@ a:active {
   font-size: 18px;
   text-align: center;
 }
+
 
 .bannerItem1{
   grid-column-start: 1;
@@ -198,23 +199,25 @@ a:active {
   .bannerCon {
     display: grid;
     grid-template-columns: 1fr 9%;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: .3fr 1fr .2fr;
   }
-  p{
-    font-size: 17px;
-  }
-  h3{
-    font-size: 20px;
-  }
-  h1{
-    font-size: 32px;
-  }
+    /*</editor-fold> */
+
+    p{
+      font-size: 17px;
+    }
+    h3{
+      font-size: 20px;
+    }
+    h1{
+      font-size: 32px;
+    }
+
   .grid-container {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 55px 375px auto auto auto auto 50px;
   }
-  /*</editor-fold> */
 
   /*<editor-fold -----NAV BAR (1)-----*/
   .item1{ /*NAV BAR*/
