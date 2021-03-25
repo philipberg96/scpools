@@ -690,7 +690,7 @@ a:active {
 /*Brought these two down to adjust logo/call margins*/
   .navBox{
     display: grid;
-    grid-template-columns: 10px 90px 200px 1fr 50px 140px;
+    grid-template-columns: 10px 90px 200px 1fr 50px 95px;
     grid-template-rows: 6px 1fr 6px;
   }
   .navItem4 p{
@@ -1076,7 +1076,7 @@ a:active {
   /*Brought these two down to return logo/call margins*/
     .navBox{
       display: grid;
-      grid-template-columns: 30px 90px 200px 1fr 50px 140px;
+      grid-template-columns: 30px 90px 200px 1fr 50px 135px;
       grid-template-rows: 6px 1fr 6px;
     }
     .navItem4 p{
