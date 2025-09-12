@@ -58,7 +58,7 @@ a:active {
 .bannerCon {
   display: grid;
   grid-template-columns: 1fr .05fr;
-  grid-template-rows: .3fr 1fr .2fr;
+  grid-template-rows: .2fr 1fr .1fr;
 
 
   position: sticky;
