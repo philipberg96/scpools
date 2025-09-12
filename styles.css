@@ -216,7 +216,7 @@ a:active {
   .bannerCon {
     display: grid;
     grid-template-columns: 1fr 9%;
-    grid-template-rows: .3fr 1fr .2fr;
+    grid-template-rows: .05fr 1fr .02fr;
   }
     /*</editor-fold> */
 
