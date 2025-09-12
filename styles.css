@@ -40,6 +40,21 @@ a:active {
   color: #16c0f7;
 }
 
+.focusBan{
+ font-size: 22px;
+}
+
+.serviceList{
+  text-align: center;
+  display: inline-block;
+}
+
+.serviceList ul{
+  margin: 0;            /* Removes default top and bottom margins */
+  padding: 0;
+  text-align: left; /* Centers the text within the list */
+}
+
 .bannerCon {
   display: grid;
   grid-template-columns: 1fr .05fr;
@@ -76,6 +91,8 @@ a:active {
   padding-left: 20px;
   padding-right: 40px;
 }
+
+
 
 .bannerItem2{
   grid-column-start: 2;
